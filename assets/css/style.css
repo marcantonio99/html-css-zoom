@@ -57,5 +57,49 @@ main{
 }
 
 .fa-microphone-slash {
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+  
+}
+footer a {
+    display: flex;
+}
+
+
+footer div {
+    display: flex;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 1rem;
+   
+}
+
+
+footer a i.fa-share-square{
+    color: #4bc800;
+}
+
+
+footer a>div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5px;
+}
+
+footer a.end{
+    background-color: #4a4a4a;
     color: red;
+    font-size: 13px;
+    display: inline-block;
+    height: 100%;
+    line-height: 65px;
+    padding: 0 20px;
 }

@@ -29,3 +29,33 @@ header a{
     display: flex;
     flex-direction: column;
 }
+
+/*MAIN*/
+main{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    padding: 1.2rem;
+}
+
+.photo{
+    width: calc(100%/7);
+}
+
+.photo img{
+    width: 100%;
+    padding: 1px 5px;
+}
+
+.photo .label{
+    position: absolute;
+    margin-top: -2.5rem;
+    margin-left: 1rem;
+    background-color: black;
+}
+
+.fa-microphone-slash {
+    color: red;
+}
